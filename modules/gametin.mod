@@ -1,10 +1,11 @@
-PCBNEW-LibModule-V1  Tue 11 Mar 2014 07:48:35 PM EDT
+PCBNEW-LibModule-V1  Tue 29 Apr 2014 10:50:37 PM EDT
 # encoding utf-8
 Units mm
 $INDEX
 0.5MM10POSFPC
 BQ25570
 DSLiteDPAD
+FDC6420C
 Fiducial
 KXOB22-12X1L
 OSHW_3MM
@@ -449,6 +450,57 @@ T1 0.08 -13.3 1 1 0 0.15 N V 21 N "VAL**"
 DA 0 0 0 2.5 670.8 0.15 15
 DC 0 0 0 2.5 0.15 21
 $EndMODULE DSLiteDPAD
+$MODULE FDC6420C
+Po 0 0 0 15 53604D0D 00000000 ~~
+Li FDC6420C
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -21.9 1 1 0 0.15 N V 21 N "FDC6420C"
+T1 0.2 -20.5 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 0.99 0.69 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.295 -0.95
+$EndPAD
+$PAD
+Sh "2" R 0.99 0.69 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.295 0
+$EndPAD
+$PAD
+Sh "3" R 0.99 0.69 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.295 0.95
+$EndPAD
+$PAD
+Sh "4" R 0.99 0.69 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.295 0.95
+$EndPAD
+$PAD
+Sh "5" R 0.99 0.69 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.295 0
+$EndPAD
+$PAD
+Sh "6" R 0.99 0.69 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.295 -0.95
+$EndPAD
+$EndMODULE FDC6420C
 $MODULE Fiducial
 Po 0 0 0 15 52C620CB 00000000 ~~
 Li Fiducial
@@ -861,7 +913,7 @@ Po 0 0
 $EndPAD
 $EndMODULE STITCH_VIA
 $MODULE TPS62750
-Po 0 0 0 15 52DC9CEB 00000000 ~~
+Po 0 0 0 15 536064F6 00000000 ~~
 Li TPS62750
 Sc 0
 AR 
@@ -869,11 +921,151 @@ Op 0 0 0
 T0 0 -39.9 1 1 0 0.15 N V 21 N "TPS62750"
 T1 0.2 -37.9 1 1 0 0.15 N V 21 N "VAL**"
 $PAD
-Sh "Pad" R 2 1.2 0 0 0
+Sh "3" R 0.66 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.32 0
+$EndPAD
+$PAD
+Sh "3" C 0.28 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.99 0
+$EndPAD
+$PAD
+Sh "4" R 0.66 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.32 0.5
+$EndPAD
+$PAD
+Sh "2" R 0.66 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.32 -0.5
+$EndPAD
+$PAD
+Sh "1" R 0.66 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.32 -1
+$EndPAD
+$PAD
+Sh "5" R 0.66 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -1.32 1
+$EndPAD
+$PAD
+Sh "8" R 0.66 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.32 0
+$EndPAD
+$PAD
+Sh "7" R 0.66 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.32 0.5
+$EndPAD
+$PAD
+Sh "6" R 0.66 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.32 1
+$EndPAD
+$PAD
+Sh "9" R 0.66 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.32 -0.5
+$EndPAD
+$PAD
+Sh "10" R 0.66 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 1.32 -1
+$EndPAD
+$PAD
+Sh "2" C 0.28 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.99 -0.5
+$EndPAD
+$PAD
+Sh "Pad" R 1.2 2 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 0 0
+$EndPAD
+$PAD
+Sh "1" C 0.28 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.99 -1
+$EndPAD
+$PAD
+Sh "4" C 0.28 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.99 0.5
+$EndPAD
+$PAD
+Sh "5" C 0.28 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -0.99 1
+$EndPAD
+$PAD
+Sh "6" C 0.28 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.99 1
+$EndPAD
+$PAD
+Sh "7" C 0.28 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.99 0.5
+$EndPAD
+$PAD
+Sh "8" C 0.28 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.99 0
+$EndPAD
+$PAD
+Sh "9" C 0.28 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.99 -0.5
+$EndPAD
+$PAD
+Sh "10" C 0.28 0.28 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.99 -1
 $EndPAD
 $EndMODULE TPS62750
 $MODULE TSTPOINT
