@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Wed 28 May 2014 11:55:55 AM EDT
+PCBNEW-LibModule-V1  Wed 28 May 2014 08:20:46 PM EDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -125,96 +125,99 @@ Po 3.04 1.2
 $EndPAD
 $EndMODULE 0.5MM10POSFPC
 $MODULE 1-1734592-0
-Po 0 0 0 15 53815C79 00000000 ~~
+Po 0 0 0 15 5386795C 00000000 ~~
 Li 1-1734592-0
 Sc 0
 AR 
 Op 0 0 0
 T0 0 -6.59 1 1 0 0.15 N V 21 N "1-1734592-0"
 T1 0.06 -5.05 1 1 0 0.15 N V 21 N "VAL**"
+DS -5.07 3.25 -5.07 6 0.15 21
+DS -5.07 6 5.07 6 0.15 21
+DS 5.07 3.25 5.07 6 0.15 21
 $PAD
 Sh "5" R 0.3 1.1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0 0
+Po -0.25 0
 $EndPAD
 $PAD
 Sh "6" R 0.3 1.1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 0.5 0
+Po 0.25 0
 $EndPAD
 $PAD
 Sh "7" R 0.3 1.1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1 0
+Po 0.75 0
 $EndPAD
 $PAD
 Sh "8" R 0.3 1.1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 1.5 0
+Po 1.25 0
 $EndPAD
 $PAD
 Sh "9" R 0.3 1.1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2 0
+Po 1.75 0
 $EndPAD
 $PAD
 Sh "4" R 0.3 1.1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -0.5 0
+Po -0.75 0
 $EndPAD
 $PAD
 Sh "3" R 0.3 1.1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1 0
+Po -1.25 0
 $EndPAD
 $PAD
 Sh "2" R 0.3 1.1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -1.5 0
+Po -1.75 0
 $EndPAD
 $PAD
 Sh "1" R 0.3 1.1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -2 0
+Po -2.25 0
 $EndPAD
 $PAD
 Sh "10" R 2.3 3.1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 4.17 1.7
+Po 3.92 1.7
 $EndPAD
 $PAD
 Sh "11" R 2.3 3.1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po -3.67 1.7
+Po -3.92 1.7
 $EndPAD
 $PAD
 Sh "10" R 0.3 1.1 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
-Po 2.5 0
+Po 2.25 0
 $EndPAD
 $EndMODULE 1-1734592-0
 $MODULE 101-0164-EV
