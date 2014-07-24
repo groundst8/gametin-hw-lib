@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Thu 17 Jul 2014 05:00:02 PM EDT
+PCBNEW-LibModule-V1  Thu 24 Jul 2014 02:45:09 PM EDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -224,7 +224,7 @@ Po 2.25 0
 $EndPAD
 $EndMODULE 1-1734592-0
 $MODULE 101-0164-EV
-Po 0 0 0 15 5381066C 00000000 ~~
+Po 0 0 0 15 53D15432 00000000 ~~
 Li 101-0164-EV
 Sc 0
 AR 
@@ -244,21 +244,21 @@ Ne 0 ""
 Po 3.975 2.25
 $EndPAD
 $PAD
-Sh "2" R 1.55 1.3 0 0 0
+Sh "1" R 1.55 1.3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.975 -2.25
 $EndPAD
 $PAD
-Sh "3" R 1.55 1.3 0 0 0
+Sh "2" R 1.55 1.3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -3.975 -2.25
 $EndPAD
 $PAD
-Sh "4" R 1.55 1.3 0 0 0
+Sh "2" R 1.55 1.3 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
@@ -1082,7 +1082,7 @@ Po 0 0
 $EndPAD
 $EndMODULE MOUNT_HOLE
 $MODULE MS3V-T1R
-Po 0 0 0 15 538015B7 00000000 ~~
+Po 0 0 0 15 53CEE2E4 00000000 ~~
 Li MS3V-T1R
 Sc 0
 AR 
@@ -1090,21 +1090,21 @@ Op 0 0 0
 T0 -0.06 -5.87 1 1 0 0.15 N V 21 N "MS3V-T1R"
 T1 0.05 -4.19 1 1 0 0.15 N V 21 N "VAL**"
 $PAD
-Sh "1" R 2.4 1.5 0 0 0
+Sh "Pad" R 2.4 1.5 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -2.45 0
 $EndPAD
 $PAD
-Sh "2" R 1.1 0.6 0 0 0
+Sh "1" R 1.1 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 3.1 -0.45
 $EndPAD
 $PAD
-Sh "3" R 1.1 0.6 0 0 0
+Sh "2" R 1.1 0.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
