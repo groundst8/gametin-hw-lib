@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Mon 28 Jul 2014 02:45:32 PM EDT
+PCBNEW-LibModule-V1  Mon 28 Jul 2014 05:23:29 PM EDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -1856,7 +1856,7 @@ Po -1.35 0
 $EndPAD
 $EndMODULE VLS4012E
 $MODULE ZX62-B-5PA(11)
-Po 0 0 0 15 5369908D 00000000 ~~
+Po 0 0 0 15 53D6BF4E 00000000 ~~
 Li ZX62-B-5PA(11)
 Sc 0
 AR 
@@ -1865,42 +1865,42 @@ T0 0 -6.16 1 1 0 0.15 N V 21 N "ZX62-B-5PA(11)"
 T1 0 -8.01 1 1 0 0.15 N V 21 N "VAL**"
 DS 2.61 1.45 -2.6 1.45 0.15 21
 $PAD
-Sh "Pad" R 1.9 1.9 0 0 0
+Sh "8" R 1.9 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 1.2 0
 $EndPAD
 $PAD
-Sh "Pad" R 1.9 1.9 0 0 0
+Sh "9" R 1.9 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -1.2 0
 $EndPAD
 $PAD
-Sh "Pad" R 1.8 1.9 0 0 0
+Sh "7" R 1.8 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po 4 0
 $EndPAD
 $PAD
-Sh "Pad" R 1.8 1.9 0 0 0
+Sh "10" R 1.8 1.9 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -4 0
 $EndPAD
 $PAD
-Sh "Pad" R 2.1 1.6 0 0 0
+Sh "11" R 2.1 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
 Po -3.1 -2.55
 $EndPAD
 $PAD
-Sh "Pad" R 2.1 1.6 0 0 0
+Sh "6" R 2.1 1.6 0 0 0
 Dr 0 0 0
 At SMD N 00888000
 Ne 0 ""
